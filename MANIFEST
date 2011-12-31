@@ -105,6 +105,7 @@ perlobject.map
 ppport.h
 README
 t/00-load.t
+t/01-identify.t
 t/manifest.t
 t/pod-coverage.t
 t/pod.t

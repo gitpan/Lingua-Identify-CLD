@@ -31,6 +31,7 @@
       },
       "runtime" : {
          "requires" : {
+            "XSLoader" : "0.10",
             "perl" : "5.008"
          }
       }
@@ -38,14 +39,14 @@
    "provides" : {
       "Lingua::Identify::CLD" : {
          "file" : "lib/Lingua/Identify/CLD.pm",
-         "version" : "0.01_02"
+         "version" : "0.01"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://opensource.org/licenses/bsd-license.php"
       ]
    },
-   "version" : "0.01_02"
+   "version" : "0.01"
 }
