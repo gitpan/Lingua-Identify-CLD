@@ -39,7 +39,7 @@
    "provides" : {
       "Lingua::Identify::CLD" : {
          "file" : "lib/Lingua/Identify/CLD.pm",
-         "version" : "0.02_01"
+         "version" : "0.02_02"
       }
    },
    "release_status" : "testing",
@@ -48,5 +48,5 @@
          "http://opensource.org/licenses/bsd-license.php"
       ]
    },
-   "version" : "0.02_01"
+   "version" : "0.02_02"
 }
