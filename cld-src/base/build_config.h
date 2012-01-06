@@ -35,6 +35,9 @@
 #elif defined(__OpenBSD__)
 #define OS_OPENBSD 1
 #define TOOLKIT_GTK
+#elif defined(__DragonFly__)
+#define OS_DRAGONFLY 1
+#define TOOLKIT_GTK
 #elif defined(__sun)
 #define OS_SOLARIS 1
 #define TOOLKIT_GTK
