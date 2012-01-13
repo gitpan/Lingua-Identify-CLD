@@ -25,12 +25,13 @@ extern "C" {
 MODULE = Lingua::Identify::CLD		PACKAGE = Lingua::Identify::CLD
 
 const char*
-_identify(src, tld_hint)
+_identify(src, tld_hint, plain)
    const char* src
    const char* tld_hint
+   int plain
   CODE:
     int src_length;
-    bool is_plain_text = true; /* make this an option */
+    bool is_plain_text = plain ? true : false;
     bool allow_extended_languages = true;
     bool pick_summary_language = false;
     bool remove_weak_matches = false;
@@ -48,7 +49,7 @@ _identify(src, tld_hint)
     if (!strlen(tld_hint))
         tld_hint = NULL;
 
-    if (1) {
+    if (0) {
        fprintf(stderr, "Text is >%s<\n", src);
        fprintf(stderr, "Text length is >%d<\n", src_length);
        fprintf(stderr, "is_plain_text is >%d<\n", is_plain_text);
