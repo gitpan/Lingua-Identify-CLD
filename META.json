@@ -4,7 +4,7 @@
       "Alberto SimÃµes <ambs@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.113640",
+   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.120351",
    "license" : [
       "bsd"
    ],
@@ -19,8 +19,8 @@
             "Config::AutoConf" : "0.17",
             "ExtUtils::CBuilder" : "0.27",
             "ExtUtils::LibBuilder" : "0.04",
-            "ExtUtils::ParseXS" : 0,
-            "Test::More" : 0
+            "ExtUtils::ParseXS" : "0",
+            "Test::More" : "0"
          }
       },
       "configure" : {
@@ -40,14 +40,14 @@
    "provides" : {
       "Lingua::Identify::CLD" : {
          "file" : "lib/Lingua/Identify/CLD.pm",
-         "version" : "0.03_01"
+         "version" : "0.03"
       }
    },
-   "release_status" : "testing",
+   "release_status" : "stable",
    "resources" : {
       "license" : [
          "http://www.opensource.org/licenses/bsd-license.php"
       ]
    },
-   "version" : "0.03_01"
+   "version" : "0.03"
 }

@@ -13,7 +13,7 @@ configure_requires:
   ExtUtils::LibBuilder: 0.04
   Module::Build: 0.38
 dynamic_config: 1
-generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.113640'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.120351'
 license: bsd
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -22,10 +22,10 @@ name: Lingua-Identify-CLD
 provides:
   Lingua::Identify::CLD:
     file: lib/Lingua/Identify/CLD.pm
-    version: 0.03_01
+    version: 0.03
 requires:
   XSLoader: 0.10
   perl: 5.008
 resources:
   license: http://www.opensource.org/licenses/bsd-license.php
-version: 0.03_01
+version: 0.03
