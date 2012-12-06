@@ -40,14 +40,14 @@
    "provides" : {
       "Lingua::Identify::CLD" : {
          "file" : "lib/Lingua/Identify/CLD.pm",
-         "version" : "0.05"
+         "version" : "0.06"
       }
    },
    "release_status" : "stable",
    "resources" : {
       "license" : [
-         "http://opensource.org/licenses/bsd-license.php"
+         "http://www.opensource.org/licenses/bsd-license.php"
       ]
    },
-   "version" : "0.05"
+   "version" : "0.06"
 }

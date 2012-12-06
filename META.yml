@@ -22,10 +22,10 @@ name: Lingua-Identify-CLD
 provides:
   Lingua::Identify::CLD:
     file: lib/Lingua/Identify/CLD.pm
-    version: 0.05
+    version: 0.06
 requires:
   XSLoader: 0.10
   perl: 5.008
 resources:
-  license: http://opensource.org/licenses/bsd-license.php
-version: 0.05
+  license: http://www.opensource.org/licenses/bsd-license.php
+version: 0.06
