@@ -12,11 +12,11 @@ Lingua::Identify::CLD - Interface to Chrome language detection library.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 use XSLoader;
 BEGIN {
@@ -150,9 +150,12 @@ Chrome team for making the code available.
 
 Jean Véronis for pushing me to do this.
 
+SocialFlow L<http://www.socialflow.com> for simplifiying the
+build/install process.
+
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2011 Alberto Simoes.
+Copyright 2011-2013 Alberto Simoes.
 
 This program is distributed under the (Revised) BSD License:
 L<http://www.opensource.org/licenses/bsd-license.php>
