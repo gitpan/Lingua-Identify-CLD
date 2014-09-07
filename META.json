@@ -4,7 +4,7 @@
       "Alberto SimÃµes <ambs@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4205",
+   "generated_by" : "Module::Build version 0.421",
    "license" : [
       "bsd"
    ],
@@ -40,7 +40,7 @@
    "provides" : {
       "Lingua::Identify::CLD" : {
          "file" : "lib/Lingua/Identify/CLD.pm",
-         "version" : "0.08"
+         "version" : "0.09"
       }
    },
    "release_status" : "stable",
@@ -49,5 +49,5 @@
          "http://opensource.org/licenses/BSD-3-Clause"
       ]
    },
-   "version" : "0.08"
+   "version" : "0.09"
 }
